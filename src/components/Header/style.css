@@ -1,0 +1,28 @@
+.header-nav {
+    background-color: #1b4436;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #50aa5a;
+    height: 399px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}

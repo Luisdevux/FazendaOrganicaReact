@@ -1,23 +1,22 @@
-import "./style.css";
+import './style.css'
 
 export default function Header() {
     return (
         <header>
-            <nav className="header-nav">
-                <ul>
-                    <li>
-                        <a href="#inicio" className="header-link">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#produtos" className="header-link">Produtos</a>
-                    </li>
-                    <li>
-                        <a href="#quemsomos" className="header-link">Quem Somos</a>
-                    </li>
-                </ul>
-            </nav>
-            <div className="header-img">
-                <img src="/image 9.png" alt="" />
+            <div className='header-fundo-menu'>
+                <div className='container'>
+                    <nav>
+                        <ul className='menu'>
+                            <li><a href="">Início</a></li>
+                            <li><a href="">Produtos</a></li>
+                            <li><a href="">Quem somos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div className='milharal'>
+                <img src="iconePlanta.svg" alt="" />
+                <div>Fazenda Orgânica</div>
             </div>
         </header>
     )

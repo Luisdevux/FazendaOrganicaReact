@@ -1,28 +1,62 @@
-.header-nav {
-    background-color: #1b4436;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.header-nav ul {
+.header-fundo-menu {
     display: flex;
-    gap: 18px;
+    background-color: #1B4436;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+.menu {
     list-style: none;
-}
-
-.header-img {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #50aa5a;
-    height: 399px;
+    gap: 20px;
 }
 
-.header-link {
+.menu li a {
     text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
+    color: white;
+}
+
+.menu li a:hover {
+    color: rgb(0, 158, 66);
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.milharal {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url('/public/plantacao.png');
+    height: 500px;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:center;
+    gap: 80px;
+}
+.milharal div {
+    font-size: 70px;
+    background-color: #225243CC;
+    font-weight: 700;
+    /* padding: 10px; */
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.milharal img {
+    margin-top: 60px;
+    max-width: 100%;
+    height: auto;
 }

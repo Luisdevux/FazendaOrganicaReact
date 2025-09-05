@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+main {
+    padding: 40px 20px;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family: "Quicksand", sans-serif;
-    box-sizing: border-box;
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 387px));
+    gap: 30px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
